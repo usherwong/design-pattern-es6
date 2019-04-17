@@ -1,0 +1,32 @@
+{
+  "name": "design-pattern",
+  "version": "0.0.1",
+  "description": "es6 design pattern",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usherwong/design-pattern-es6.git"
+  },
+  "keywords": [
+    "design",
+    "pattern",
+    "es6"
+  ],
+  "author": "wangys",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/usherwong/design-pattern-es6/issues"
+  },
+  "homepage": "https://github.com/usherwong/design-pattern-es6#readme",
+  "dependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-proposal-decorators": "^7.4.0",
+    "@babel/preset-env": "^7.4.3"
+  }
+}
