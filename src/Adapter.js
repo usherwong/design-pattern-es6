@@ -16,6 +16,7 @@ class Adapter extends Target {
 		this.adaptee = adaptee
 	}
 	hk () { // 重写插入方法适配香港模式
+		console.log('用香港的插入方法，插入大陆的插头')
 		this.adaptee.zh()
 	}
 }
