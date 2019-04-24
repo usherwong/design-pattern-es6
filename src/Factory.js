@@ -37,11 +37,11 @@ Page_dom.Img = class Img extends Page_dom {
 	constructor(url) {
 		super(url)
 	}
-	 insert (where) {
+	insert (where) {
 	 	var img = document.createElement('img')
 		img.src = this.url
 		where.appendChild(img)
-	 }
+	}
 }
 
 let o = Page_dom.factory('Link')
