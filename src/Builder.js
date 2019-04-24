@@ -67,11 +67,11 @@ class BookBuilder extends BaseBuilder {
 }
 
 const book = new BookBuilder()
-  .withName("高效能人士的七个习惯")
-  .withAuthor('史蒂芬·柯维')
+  .withName("侠客行")
+  .withAuthor('金庸')
   .withPrice(51)
-  .withCategory('励志')
-  .build();
+  .withCategory('小说')
+  .build()
 
 
 
