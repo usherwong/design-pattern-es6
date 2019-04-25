@@ -14,6 +14,9 @@ class Iterator {
 	hasNext () {
 		return this.items.length >= this.index
 	}
+	current () {
+		return this.items[this.index]
+	}
 	reset () {
 		this.index = 0
 	}

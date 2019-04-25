@@ -22,6 +22,9 @@ class Iterator2 {
 			done: true
 		}
 	}
+	current () {
+		return this.items[this.index]
+	}
 	hasNext () {
 		return this.items.length > this.index
 	}
