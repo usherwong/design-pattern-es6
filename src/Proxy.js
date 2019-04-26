@@ -23,6 +23,7 @@ class LibraryProxy extends Library {
 	}
 	findBook (book) {
 		let middleBook = this.library.findBook(book)
+		// 不给外部用户查看禁书的机会，此处进行拦截
 		if (middleBook && middleBook.length > 0) {
 			return middleBook.filter((item)=> item.type !== 'forbidden')
 		} else {
