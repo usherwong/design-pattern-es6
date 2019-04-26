@@ -1,3 +1,5 @@
+// 抽象工厂模式
+
 // 抽象工厂类-抽象类
 class AbstractFactory {
 	constructor () {

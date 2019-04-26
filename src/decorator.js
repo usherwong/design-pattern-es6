@@ -1,3 +1,5 @@
+// 装饰者模式
+
 // 创建人类
 // class Man {
 // 	constructor(def = 2, atc = 3, hp = 3){

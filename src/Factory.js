@@ -1,3 +1,5 @@
+// 工厂方法模式
+
 class Page_dom {
 	constructor (url) {
 		this.url = url

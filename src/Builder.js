@@ -1,3 +1,5 @@
+// 建造者模式
+
 class BookBuilder1 {
     constructor () {
         this.name = ''

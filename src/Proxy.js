@@ -1,3 +1,5 @@
+// 代理模式
+
 class Library {
 	constructor (books) {
 		this.books = books

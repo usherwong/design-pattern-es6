@@ -1,4 +1,4 @@
-// 简单的单例例子
+// 单例模式
 
 class Singleton {
 	constructor(name, hobby) {

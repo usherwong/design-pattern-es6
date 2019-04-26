@@ -1,3 +1,5 @@
+// 适配器模式
+
 class Target {
 	hk () { // 插入方法
 		console.log('只能插入-香港插头')

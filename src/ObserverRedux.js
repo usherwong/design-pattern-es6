@@ -1,3 +1,5 @@
+// 观察者模式
+
 // 简化版的Redux
 
 function createStroe(reducer) {

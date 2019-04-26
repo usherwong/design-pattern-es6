@@ -1,3 +1,5 @@
+// 原型模式
+
 class Prototype {
 	constructor (prototype) {
 		console.log("Prototype Class created");

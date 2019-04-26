@@ -1,3 +1,5 @@
+// 外观模式
+
 class Facade {
 	constructor () {
 		console.log('Facade class created')

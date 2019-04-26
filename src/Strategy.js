@@ -1,9 +1,12 @@
+// 策略模式
+
 class Context {
 	constructor (type) {
 		console.log('Context Class created!');
 		switch(type) {
 			case 'A': 
 				this.strategy = new ConcreteStrategyA()
+				break
 			case 'B': 
 				this.strategy = new ConcreteStrategyB()
 				break

@@ -1,3 +1,5 @@
+// 迭代器模式
+
 // 迭代器类
 class Iterator {
 	constructor (items) {
